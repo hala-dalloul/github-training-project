@@ -1,11 +1,23 @@
-package com.example.todo_list.ui.theme
+package com.task.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val Burgundy = Color(0xFF3B0000)
+val BurgundyLight = Color(0xFF5A1010)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Mocha = Color(0xFF8C6A6A)
+val Rose = Color(0xFFB88A8A)
+
+val Background = Color(0xFFF4F1EE)
+val Surface = Color(0xFFECE7E3)
+val Card = Color(0xFFE2DBD5)
+
+val Outline = Color(0xFFB7AAA3)
+
+val DarkBackground = Color(0xFF121010)
+val DarkSurface = Color(0xFF1B1717)
+val DarkCard = Color(0xFF241C1C)
+
+val Success = Color(0xFF6E8B6B)
+val Warning = Color(0xFFD9A441)
+val Error = Color(0xFFB3261E)
