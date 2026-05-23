@@ -36,7 +36,13 @@ The app features a warm **burgundy and beige** color theme, smooth navigation be
 
 ## Screenshots
 
-
+<p float="left">
+  <img src="img/splash.png" width="18%" />
+  <img src="img/login.png" width="18%" />
+  <img src="img/home.png" width="18%" />
+  <img src="img/addTask.png" width="18%" />
+  <img src="img/profile.png" width="18%" />
+</p>
 
 ---
 
