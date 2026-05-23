@@ -4,6 +4,15 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import com.example.todo_list.ui.theme.AppTypography
+import com.example.todo_list.ui.theme.Background
+import com.example.todo_list.ui.theme.Burgundy
+import com.example.todo_list.ui.theme.DarkBackground
+import com.example.todo_list.ui.theme.DarkSurface
+import com.example.todo_list.ui.theme.Error
+import com.example.todo_list.ui.theme.Mocha
+import com.example.todo_list.ui.theme.Outline
+import com.example.todo_list.ui.theme.Rose
+import com.example.todo_list.ui.theme.Surface
 
 private val LightColors = lightColorScheme(
 
