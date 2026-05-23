@@ -37,11 +37,11 @@ The app features a warm **burgundy and beige** color theme, smooth navigation be
 ## Screenshots
 
 <p float="left">
-  <img src="img/splash.png" width="18%" />
-  <img src="img/login.png" width="18%" />
-  <img src="img/home.png" width="18%" />
-  <img src="img/addTask.png" width="18%" />
-  <img src="img/profile.png" width="18%" />
+  <img src="app/src/main/java/com/example/todo_list/img/splash.png" width="18%" />
+  <img src="app/src/main/java/com/example/todo_list/img/login.png" width="18%" />
+  <img src="app/src/main/java/com/example/todo_list/img/home.png" width="18%" />
+  <img src="app/src/main/java/com/example/todo_list/img/profile.png" width="18%" />
+  <img src="app/src/main/java/com/example/todo_list/img/addTask.png" width="18%" />
 </p>
 
 ---
