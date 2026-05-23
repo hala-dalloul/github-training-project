@@ -9,7 +9,6 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -19,6 +18,7 @@ import com.example.todo_list.data.model.Task
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
+    tasks: List<Task>,
     onAddTaskClick: () -> Unit,
     onProfileClick: () -> Unit
 ) {
@@ -26,16 +26,6 @@ fun HomeScreen(
     val beigeLight = Color(0xFFF5F5DC)
     val beigeDark = Color(0xFFE1C699)
     val beigeBackground = Color(0xFFFAFAF5)
-
-    var tasks by remember {
-        mutableStateOf(
-            listOf(
-                Task("Design UI", "Create login and home screens"),
-                Task("API Integration", "Connect app with backend"),
-                Task("Fix Bugs", "Resolve crashes in auth flow")
-            )
-        )
-    }
 
     Surface(
         modifier = Modifier.fillMaxSize(),
